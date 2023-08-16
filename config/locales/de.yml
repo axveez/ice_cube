@@ -147,9 +147,22 @@ de:
     - Freitag
     - Samstag
     formats:
-      default: "%Y-%m-%d"
-      long: "%B %d, %Y"
-      short: "%b %d"
+      date: "%d.%m.%y"
+      date_and_time: "%d.%m.%Y %H:%M"
+      date_and_time_extended: "%d.%m.%y %H:%M:%S"
+      date_only: "%d.%m.%Y"
+      date_only_reverse: "%Y-%m-%d"
+      date_only_with_weekday: "%a %d.%m.%Y"
+      default: "%H:%M"
+      long: "%A, %d. %B %Y, %H:%M Uhr"
+      month: "%B %Y"
+      o_clock: "%H:%M Uhr"
+      short: "%d. %B, %H:%M Uhr"
+      time: "%H:%M"
+      timepicker: H:i
+      timepicker_input_value_format: "%H:%M"
+      with_seconds: "%H:%M:%S"
+      monthday: "%e. %b"
     month_names:
     -
     - Januar
